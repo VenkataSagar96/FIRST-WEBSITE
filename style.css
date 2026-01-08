@@ -111,3 +111,23 @@ h4 {
 h5 {
     padding-top: 20px;
 }
+
+.about {
+    background-color: #E1E8F0;
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutData {
+    width: 500px;
+}
+
+.aboutData h1 {
+    font-size: 36;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
