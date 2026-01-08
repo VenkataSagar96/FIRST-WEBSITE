@@ -25,8 +25,6 @@ body {
     align-items: center;
 }
 
- 
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -45,6 +43,8 @@ nav ul li {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* Hero Secton */
 
 .heroSection { 
     height: 772px;
@@ -112,6 +112,8 @@ h5 {
     padding-top: 20px;
 }
 
+/*about section */
+
 .about {
     background-color: #E1E8F0;
     padding: 100px 30px;
@@ -130,4 +132,43 @@ h5 {
     font-weight: bold;
     line-height: 1.1;
     margin-bottom: 16px;
+}
+
+/* Solutions Section */
+.solutions {
+
+}
+
+.solutionCard { 
+    background-color: #051229;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.solData {
+    padding: 10px;
+    height: 300px;
+    width: 400px; 
+}
+
+.solHeading {
+    font-size: 46;
+    line-height: 1.1;
+}
+
+.solPara {
+    line-height: 1.1;
+}
+
+.solBtn {
+    width: 180px;
+    background-color: white;
+    color: #051229;
+    padding: 10px;
+    border: none;
+    border-radius: 22px;
 }
