@@ -15,9 +15,10 @@ body {
 
 .head {
     height: 80px;
-    background-color: #364052;
+    background-color: #051229;
     color: white;
     padding: 40px 10px;
+    border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,4 +44,63 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.heroSection { 
+    height: 772px;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 100px;
+    background-color: #051229;
+    background-image: url(assets/Images/hero-1.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.heroSec1 {
+    display: inline;
+    margin: auto;
+}
+
+.heroSection .heading {
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-family: "libre Frankli";
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.heroSection .heading span {
+    color: #;
+}
+
+.heroPara {
+    font-size: 20px;
+}
+
+.heroBtn {
+    width: 180px;
+    background-color: white;
+    color: #051229;
+    padding: 10px;
+    border: none;
+    border-radius: 22px;
+}
+
+h4 {
+    color: blue;
+}
+.featureCards {
+    padding: 0 60px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.featureCard {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
 }
